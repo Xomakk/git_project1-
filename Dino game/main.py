@@ -64,7 +64,7 @@ class MainScreen(Widget):
 
     def on_touch_down(self, touch):
         global FALL_SPEED
-        FALL_SPEED = 15
+        FALL_SPEED = 16
 
 
 class MainApp(MDApp):
