@@ -1,0 +1,38 @@
+<Terra>:
+    size: 2877, 62
+    canvas:
+        Rectangle:
+            source: 'img/Terrain.png'
+            size: self.size
+            pos: self.pos
+
+<Cactus>:
+    size: 46, 92
+    canvas:
+        Rectangle:
+            source: 'img/cacti1.png'
+            size: self.size
+            pos: self.pos
+
+<Dino>:
+    size: 80, 86
+    canvas:
+        Rectangle:
+            source: 'img/dino1.png'
+            size: self.size
+            pos: self.pos
+
+<MainScreen>:
+    terra: terra
+    cactus1: cactus1
+    dino: dino
+
+    Terra:
+        id: terra
+        valign: 'bottom'
+
+    Cactus:
+        id: cactus1
+
+    Dino:
+        id: dino
